@@ -7,6 +7,7 @@ const theTimer = document.querySelector('.timer');
 let timer = [0, 0, 0, 0];
 let interval;
 let timerRunning = false;
+let counter = 0;
 
 
 // Add leading zero to numbers 9
@@ -41,6 +42,13 @@ function reset() {
     theTimer.innerHTML = "00:00:00";
 
     testWrapper.style.borderColor = 'green';
+    counter++;
+    if (counter <= 1){
+      console.log("You have played " + counter + " time");
+    } else {
+      console.log("You have played " + counter + " times");
+    }
+
 }
 
 
