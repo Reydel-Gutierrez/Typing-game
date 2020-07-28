@@ -1,0 +1,10 @@
+2.0 update){
+
+  -Change the text randomly after user finish the sentence!
+  -Have the option to change the game to up to 30 sec!
+  -30sec features{
+      -calculate wpm and give it to user
+      -give you a range level
+  }
+
+}
