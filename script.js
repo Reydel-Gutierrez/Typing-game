@@ -3,6 +3,7 @@ const testArea = document.querySelector('#textArea');
 const originText = document.querySelector('.text').innerHTML;
 const resetButton = document.querySelector('#reset');
 const theTimer = document.querySelector('.timer');
+const texts = "Something";
 
 let timer = [0, 0, 0, 0];
 let interval;
